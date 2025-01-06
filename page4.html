@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Image Map Links</title>
+    <link rel="stylesheet" href="page4.css" />
+  </head>
+  <body>
+    <a href="index.html" class="back-button">Back to Main Page</a>
+    <h1>Explore Latin America</h1>
+    <p>
+      Click on Mexico, Panama, Brazil or Argentina regions on the map to learn
+      more!
+    </p>
+
+    <!-- Image with Image Map -->
+    <img src="image5.png" usemap="#image-map" alt="Latin America Map" />
+
+    <map name="image-map">
+      <!-- Polygon Links -->
+      <area
+        target=""
+        alt="Panama"
+        title="Panama"
+        href="https://en.wikipedia.org/wiki/Panama"
+        coords="530,431,530,411,631,407,578,445"
+        shape="poly"
+      />
+      <area
+        target=""
+        alt="Brazil"
+        title="Brazil"
+        href="https://en.wikipedia.org/wiki/Brazil"
+        coords="1022,504,744,514,1223,680,1000,938,709,618,746,512,1224,680,1180,596"
+        shape="poly"
+      />
+      <area
+        target=""
+        alt="Argentina"
+        title="Argentina"
+        href="https://en.wikipedia.org/wiki/Argentina"
+        coords="943,901,805,820,750,1226,810,1246"
+        shape="poly"
+      />
+      <area
+        target=""
+        alt="Mexico"
+        title="Mexico"
+        href="https://en.wikipedia.org/wiki/Mexico"
+        coords="19,12,284,94,436,232,351,354,108,267"
+        shape="poly"
+      />
+    </map>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+nav {
+  background-color: #1a2fe7;
+  padding: 30px;
+  text-align: left; /* Changed from center to left */
+  position: relative; /* To position the Google Sign-In button relative to the nav */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 28px; /* Decreased margin to move links to the left */
+  font-size: 20px; /* Adjusted font size for links */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 60px; /* Increased padding */
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px; /* Increased font size */
+  color: #333333;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 25px; /* Increased font size */
+  color: #555;
+  margin-bottom: 0px;
+}
+
+.map-image {
+  width: 50%; /* Reduced the size of the image */
+  height: auto;
+  margin-top: 50px; /* Increased margin-top */
+  border-radius: 10px; /* Slightly rounded corners */
+}
+
+/* Gray Line Style */
+.gray-line {
+  border: 1px solid #ddd; /* Light gray color */
+  width: 80%; /* The line will cover 80% of the width */
+  margin: 30px auto; /* Centered line with some margin */
+}
+
+/* Google Sign-In Button Style (Aligned Next to 'Contact Us') */
+.google-signin-container {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%); /* Vertically center the button */
+}
+
+.g-signin2 {
+  background-color: #4285f4; /* Google blue */
+  color: white;
+  border: none;
+  padding: 15px 25px; /* Increased padding for bigger button */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px; /* Increased font size for the button text */
+  text-align: center;
+}
+
+.g-signin2:hover {
+  background-color: #357ae8; /* Darker blue on hover */
+}
+
+/* Copyright Styles */
+.copyright {
+  font-size: 12px; /* Smaller font size */
+  color: gray; /* Gray color */
+  margin-top: 10px; /* Space between the line and the copyright text */
+  text-align: right; /* Align text to the right */
+  margin-right: 20px; /* Move the copyright to the right corner */
+}

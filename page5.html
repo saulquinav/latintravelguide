@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="page5.css" />
+  </head>
+  <body>
+    <a href="index.html" class="back-button">Back to Main Page</a>
+
+    <h1>Contact Us</h1>
+
+    <!-- Form for Contact Us -->
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your Name"
+        required
+      />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your Email"
+        required
+      />
+
+      <label for="country">Country of Interest:</label>
+      <select id="country" name="country">
+        <option value="Argentina">Argentina</option>
+        <option value="Brazil">Brazil</option>
+        <option value="Peru">Peru</option>
+        <option value="Mexico">Mexico</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        placeholder="Your Message"
+      ></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Link to external JavaScript file for form validation -->
+    <script src="page5.js"></script>
+  </body>
+</html>

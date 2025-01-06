@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .dictionary {
+    margin: 20px auto;
+    width: 50%;
+  }
+  
+  .entry {
+    margin-bottom: 15px;
+  }
+  
+  .back-button {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Images Gallery</title>
+    <link rel="stylesheet" href="page3.css" />
+  </head>
+  <body>
+    <a href="index.html" class="back-button">Back to Main Page</a>
+
+    <h1>Latin American Highlights</h1>
+
+    <!-- Slider Container -->
+    <div class="slider-container">
+      <!-- Slides -->
+      <div class="slide fade">
+        <img src="image1.jpg" alt="Buenos Aires" />
+        <p>Buenos Aires, known for tango music and European architecture.</p>
+      </div>
+      <div class="slide fade">
+        <img src="image2.jpg" alt="Rio de Janeiro" />
+        <p>Rio de Janeiro's iconic Christ the Redeemer statue and beaches.</p>
+      </div>
+      <div class="slide fade">
+        <img src="image3.jpg" alt="Machu Picchu" />
+        <p>Machu Picchu, the ancient Incan citadel in the Andes Mountains.</p>
+      </div>
+      <div class="slide fade">
+        <img src="image4.jpg" alt="Chichen Itza" />
+        <p>Chichen Itza, a wonder of the ancient Mayan civilization.</p>
+      </div>
+
+      <!-- Navigation Dots (optional) -->
+      <div class="dot-container">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <!-- Previous and Next Buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="page3.js"></script>
+  </body>
+</html>
